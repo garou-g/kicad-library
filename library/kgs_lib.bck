@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 64128K_FC_BW-RGB
+D LCD 128x64 Monochrome 28pin R/G/B Backlight, SPI/8bit parallel, 3.0V VDD
+K display LCD 128x64
+F https://ru.mouser.com/datasheet/2/116/64128K-RGB_series-1511043.pdf
+$ENDCMP
+#
+$CMP CC2640R2FRGZ
+D SimpleLink Bluetooth low energy Wireless MCU
+K SimpleLink bluetooth wireless mcu
+F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
+$CMP ISL29033
+D Ambient Light Sensor, I2C interface, 2.25-3.63V, ODFN-6
+K opto ambient light sensor
+F https://www.renesas.com/us/en/www/doc/datasheet/isl29033.pdf
+$ENDCMP
+#
+$CMP MFRC522
+D MIFARE RF Reader Device, 32HVQFN
+K MIFARE RFID
+F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+$ENDCMP
+#
+$CMP TPS2065D
+D Single Channel, Current-Limited USB Power Distribution Switch
+K 1-chanel current-limited power-distribution USB
+F http://www.ti.com/lit/ds/symlink/tps2065d.pdf
+$ENDCMP
+#
+$CMP TS4871IDT
+D 1W Audio Amplifier with Standby Mode, SO-8
+K audio amplifier
+F https://www.st.com/resource/en/datasheet/ts4871.pdf
+$ENDCMP
+#
+#End Doc Library
