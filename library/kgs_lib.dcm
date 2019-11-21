@@ -12,6 +12,12 @@ K SimpleLink bluetooth wireless mcu
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
 #
+$CMP DRV8353S
+D 100-V Three-Phase Smart Gate Driver With Three Current Shunt Amplifiers
+K gate driver mosfet
+F http://www.ti.com/lit/ds/symlink/drv8353r.pdf
+$ENDCMP
+#
 $CMP IRLR2908PbF
 D 30A Id, 80V Vds, 28mOhm Rds, N-Channel MOSFET
 K N-Channel NMOS Power MOSFET
