@@ -12,10 +12,34 @@ K SimpleLink bluetooth wireless mcu
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
 #
+$CMP DRV8353S
+D 100-V Three-Phase Smart Gate Driver With Three Current Shunt Amplifiers
+K gate driver mosfet
+F http://www.ti.com/lit/ds/symlink/drv8353r.pdf
+$ENDCMP
+#
+$CMP IRLR2908PbF
+D 30A Id, 80V Vds, 28mOhm Rds, N-Channel MOSFET
+K N-Channel NMOS Power MOSFET
+F https://www.infineon.com/dgdl/irlr2908pbf.pdf?fileId=5546d462533600a40153566cdace2681
+$ENDCMP
+#
 $CMP ISL29033
 D Ambient Light Sensor, I2C interface, 2.25-3.63V, ODFN-6
 K opto ambient light sensor
 F https://www.renesas.com/us/en/www/doc/datasheet/isl29033.pdf
+$ENDCMP
+#
+$CMP LM5005MH
+D Simple Switcher Buck Regulator, Vin=4.3-60V, Iout=3A, Adjustable output voltage, HSOIC-8 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lm5005.pdf
+$ENDCMP
+#
+$CMP LMR16020PDDA
+D Simple Switcher Buck Regulator, Vin=4.3-60V, Iout=3A, Adjustable output voltage, HSOIC-8 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr16020.pdf
 $ENDCMP
 #
 $CMP MFRC522
