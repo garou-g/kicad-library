@@ -6,6 +6,11 @@ K display LCD 128x64
 F https://ru.mouser.com/datasheet/2/116/64128K-RGB_series-1511043.pdf
 $ENDCMP
 #
+$CMP Bus_PCI_Express_x1
+D PCI express bus connector
+K PCIe PCI Express x1
+$ENDCMP
+#
 $CMP CC2640R2FRGZ
 D SimpleLink Bluetooth low energy Wireless MCU
 K SimpleLink bluetooth wireless mcu
