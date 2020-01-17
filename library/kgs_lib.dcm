@@ -59,6 +59,18 @@ K transistor NMOS N-MOS N-MOSFET
 F https://ru.mouser.com/datasheet/2/427/sisc06dn-1291939.pdf
 $ENDCMP
 #
+$CMP SiSH101DN
+D -35A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F https://ru.mouser.com/datasheet/2/427/sish101dn-1525255.pdf
+$ENDCMP
+#
+$CMP SiSS27DN
+D -50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62847/siss27dn.pdf
+$ENDCMP
+#
 $CMP TPS2065D
 D Single Channel, Current-Limited USB Power Distribution Switch
 K 1-chanel current-limited power-distribution USB
