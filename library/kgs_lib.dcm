@@ -53,6 +53,12 @@ K MIFARE RFID
 F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
 $ENDCMP
 #
+$CMP SiSC06DN
+D 40A Id, 30V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
+K transistor NMOS N-MOS N-MOSFET
+F https://ru.mouser.com/datasheet/2/427/sisc06dn-1291939.pdf
+$ENDCMP
+#
 $CMP TPS2065D
 D Single Channel, Current-Limited USB Power Distribution Switch
 K 1-chanel current-limited power-distribution USB
