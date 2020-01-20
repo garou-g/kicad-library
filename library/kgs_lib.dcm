@@ -71,10 +71,34 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/62847/siss27dn.pdf
 $ENDCMP
 #
+$CMP TLV75801PDRV
+D 500mA High Accuracy Voltage Regulator, Adjustable Out, WSON6
+K LDO Regulator Adjustable Positive
+F http://www.ti.com/lit/ds/symlink/tlv758p.pdf
+$ENDCMP
+#
+$CMP TLV75901PDRV
+D 1A High Accuracy Voltage Regulator, Adjustable Out, WSON6
+K LDO Regulator Adjustable Positive
+F http://www.ti.com/lit/ds/symlink/tlv759p.pdf
+$ENDCMP
+#
 $CMP TPS2065D
 D Single Channel, Current-Limited USB Power Distribution Switch
 K 1-chanel current-limited power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2065d.pdf
+$ENDCMP
+#
+$CMP TPS73201DBV
+D Cap free NMOS 250mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Cap free Adjustable LDO 250mA
+F http://www.ti.com/lit/ds/symlink/tps732.pdf
+$ENDCMP
+#
+$CMP TPS73233DBV
+D Cap free NMOS 250mA Low Drop 3.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 250mA
+F http://www.ti.com/lit/ds/symlink/tps732.pdf
 $ENDCMP
 #
 $CMP TS4871IDT
