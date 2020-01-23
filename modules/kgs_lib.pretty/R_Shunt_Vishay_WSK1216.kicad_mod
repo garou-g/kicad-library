@@ -1,4 +1,4 @@
-(module R_Shunt_Vishay_WSK1216 (layer F.Cu) (tedit 5D43E112)
+(module R_Shunt_Vishay_WSK1216 (layer F.Cu) (tedit 5E29B11B)
   (descr "4 contact shunt resistor")
   (tags "shunt resistor 4 contacts")
   (fp_text reference REF** (at -0.827 -2.6) (layer F.SilkS)
@@ -23,7 +23,7 @@
   (pad 4 smd rect (at -1.7145 1.029) (size 2.95 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.6135 -1.0735) (size 0.7 1.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.7145 -1.076) (size 2.95 1.5) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/libs/packages3d/wsk1216.step
+  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/wsk1216.step
     (offset (xyz -4.9 0 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -1,4 +1,4 @@
-(module JST_PHD_B4B-PHDSS_2x02_P2.00mm_Vertical (layer F.Cu) (tedit 5DB05AB2)
+(module JST_PHD_B4B-PHDSS_2x02_P2.00mm_Vertical (layer F.Cu) (tedit 5E29B0B7)
   (descr "JST PHD series connector, B4B-PHDSS (http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf), generated with kicad-footprint-generator")
   (tags "connector JST PHD vertical")
   (fp_text reference REF** (at 1 -2.7) (layer F.SilkS)
@@ -41,7 +41,7 @@
   (pad 3 thru_hole circle (at 2 0) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 2) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 2 2) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/B4B-PHDSS.STEP
+  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/b4b-phdss.STEP
     (offset (xyz 1 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
