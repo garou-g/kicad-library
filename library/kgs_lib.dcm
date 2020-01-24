@@ -6,6 +6,18 @@ K display LCD 128x64
 F https://ru.mouser.com/datasheet/2/116/64128K-RGB_series-1511043.pdf
 $ENDCMP
 #
+$CMP BQ24090DGQ
+D Single Cell 1A, HVSSOP-10
+K Battery Charger and Power Path Management
+F http://www.ti.com/lit/ds/symlink/bq24090.pdf
+$ENDCMP
+#
+$CMP BQ24295RGE
+D Controlled Single Cell 3A, VQFN-24
+K Battery Charger and Power Path Management
+F http://www.ti.com/lit/ds/symlink/bq25895.pdf
+$ENDCMP
+#
 $CMP Bus_PCI_Express_x1
 D PCI express bus connector
 K PCIe PCI Express x1
@@ -15,6 +27,18 @@ $CMP CC2640R2FRGZ
 D SimpleLink Bluetooth low energy Wireless MCU
 K SimpleLink bluetooth wireless mcu
 F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
+$CMP CC2642R1FRGZ
+D SimpleLink Bluetooth 5 low energy Wireless MCU
+K SimpleLink bluetooth 5 wireless mcu
+F http://www.ti.com/lit/gpn/cc2520
+$ENDCMP
+#
+$CMP DAC5311IDCK
+D 8-bit Low-Power DAC with SPI-Compatible Interface, SC70
+K SPI DAC 8-bit
+F http://www.ti.com/lit/ds/symlink/dac5311.pdf
 $ENDCMP
 #
 $CMP DRV8353S
@@ -69,6 +93,12 @@ $CMP SiSS27DN
 D -50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
 F http://www.vishay.com/docs/62847/siss27dn.pdf
+$ENDCMP
+#
+$CMP TLC5946PWP
+D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
+K PWM LED driver
+F https://www.ti.com/lit/ds/symlink/tlc5946.pdf
 $ENDCMP
 #
 $CMP TLV75801PDRV
