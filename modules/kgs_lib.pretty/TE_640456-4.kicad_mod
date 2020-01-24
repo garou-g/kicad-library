@@ -1,4 +1,4 @@
-(module TE_640456-4 (layer F.Cu) (tedit 5E24ACAE)
+(module TE_640456-4 (layer F.Cu) (tedit 5E2AEBDF)
   (fp_text reference REF** (at -6.715 -4.815) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
@@ -26,7 +26,7 @@
   (pad 2 thru_hole circle (at -2.54 0) (size 1.37 1.37) (drill 1.02) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -5.08 0) (size 1.37 1.37) (drill 1.02) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -7.62 0) (size 1.37 1.37) (drill 1.02) (layers *.Cu *.Mask))
-  (model /home/exomars/Downloads/ENG_CVM_CVM_640456-4_AA.3d_stp/c-640456-4-aa-3d.stp
+  (model ${KISYS3DMOD_CUSTOM}/kgs_lib.3dshapes/c-640456-4-aa-3d.stp
     (offset (xyz -3.8 0.5 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
