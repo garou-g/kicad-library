@@ -6,6 +6,12 @@ K display LCD 128x64
 F https://ru.mouser.com/datasheet/2/116/64128K-RGB_series-1511043.pdf
 $ENDCMP
 #
+$CMP BQ24090DGQ
+D Single Cell 1A, HVSSOP-10
+K Battery Charger and Power Path Management
+F http://www.ti.com/lit/ds/symlink/bq24090.pdf
+$ENDCMP
+#
 $CMP BQ24295RGE
 D Controlled Single Cell 3A, VQFN-24
 K Battery Charger and Power Path Management
@@ -20,13 +26,13 @@ $ENDCMP
 $CMP CC2640R2FRGZ
 D SimpleLink Bluetooth low energy Wireless MCU
 K SimpleLink bluetooth wireless mcu
-F http://www.ti.com/lit/gpn/cc2520
+F http://www.ti.com/lit/ds/symlink/cc2640r2f.pdf
 $ENDCMP
 #
 $CMP CC2642R1FRGZ
 D SimpleLink Bluetooth 5 low energy Wireless MCU
 K SimpleLink bluetooth 5 wireless mcu
-F http://www.ti.com/lit/gpn/cc2520
+F http://www.ti.com/lit/ds/symlink/cc2642r.pdf
 $ENDCMP
 #
 $CMP DAC5311IDCK
