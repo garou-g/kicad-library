@@ -41,6 +41,16 @@ K SPI DAC 8-bit
 F http://www.ti.com/lit/ds/symlink/dac5311.pdf
 $ENDCMP
 #
+$CMP DRV8323RS
+D 60V Three-Phase Smart Gate Driver With Buck Regulator and Three Current Shunt Amplifiers
+K gate driver mosfet
+$ENDCMP
+#
+$CMP DRV8353RS
+D 100-V Three-Phase Smart Gate Driver With Buck Regulator and Three Current Shunt Amplifiers
+K gate driver mosfet
+$ENDCMP
+#
 $CMP DRV8353S
 D 100-V Three-Phase Smart Gate Driver With Three Current Shunt Amplifiers
 K gate driver mosfet
@@ -122,6 +132,12 @@ $ENDCMP
 $CMP TPS73201DBV
 D Cap free NMOS 250mA Low Drop Adjustable Out Regulator, SOT-23-5
 K Cap free Adjustable LDO 250mA
+F http://www.ti.com/lit/ds/symlink/tps732.pdf
+$ENDCMP
+#
+$CMP TPS73230DBV
+D Cap free NMOS 250mA Low Drop 3.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 250mA
 F http://www.ti.com/lit/ds/symlink/tps732.pdf
 $ENDCMP
 #
