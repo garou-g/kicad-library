@@ -44,6 +44,7 @@ $ENDCMP
 $CMP DRV8323RS
 D 60V Three-Phase Smart Gate Driver With Buck Regulator and Three Current Shunt Amplifiers
 K gate driver mosfet
+F http://www.ti.com/lit/ds/symlink/drv8323.pdf
 $ENDCMP
 #
 $CMP DRV8353RS
