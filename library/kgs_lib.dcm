@@ -58,6 +58,12 @@ K gate driver mosfet
 F http://www.ti.com/lit/ds/symlink/drv8353r.pdf
 $ENDCMP
 #
+$CMP HX711
+D 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales
+K 24-Bit ADC Weigh Scales
+F https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
+$ENDCMP
+#
 $CMP IRLR2908PbF
 D 30A Id, 80V Vds, 28mOhm Rds, N-Channel MOSFET
 K N-Channel NMOS Power MOSFET
