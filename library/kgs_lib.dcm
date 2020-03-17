@@ -94,6 +94,12 @@ K MIFARE RFID
 F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
 $ENDCMP
 #
+$CMP SN74LVC4245APW
+D Bus Transceiver and 3.3-V to 5-V Shifter
+K Shifter  Bus Transceiver
+F http://www.ti.com/lit/ds/symlink/sn74lvc4245a.pdf
+$ENDCMP
+#
 $CMP SiSC06DN
 D 40A Id, 30V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
 K transistor NMOS N-MOS N-MOSFET
