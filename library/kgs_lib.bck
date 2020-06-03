@@ -94,12 +94,6 @@ K MIFARE RFID
 F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
 $ENDCMP
 #
-$CMP SN74LVC4245A
-D Bus Transceiver and 3.3-V to 5-V Shifter
-K Shifter  Bus Transceiver
-F http://www.ti.com/lit/ds/symlink/sn74lvc4245a.pdf
-$ENDCMP
-#
 $CMP SN74LVC4245APW
 D Bus Transceiver and 3.3-V to 5-V Shifter
 K Shifter  Bus Transceiver
@@ -170,6 +164,12 @@ $CMP TS4871IDT
 D 1W Audio Amplifier with Standby Mode, SO-8
 K audio amplifier
 F https://www.st.com/resource/en/datasheet/ts4871.pdf
+$ENDCMP
+#
+$CMP UCC27210D
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
 $ENDCMP
 #
 #End Doc Library

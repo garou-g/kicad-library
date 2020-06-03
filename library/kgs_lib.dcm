@@ -166,4 +166,28 @@ K audio amplifier
 F https://www.st.com/resource/en/datasheet/ts4871.pdf
 $ENDCMP
 #
+$CMP UCC27210D
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27210DDA
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8 PowerPAD
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27211D
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27211DDA
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
 #End Doc Library
