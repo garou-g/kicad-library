@@ -124,6 +124,12 @@ K PWM LED driver
 F https://www.ti.com/lit/ds/symlink/tlc5946.pdf
 $ENDCMP
 #
+$CMP TLV3541
+D 200-MHz, Rail-to-Rail,  CMOS Operational Amplifier
+K Amplifier
+F https://www.ti.com/lit/ds/symlink/tlv3541.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1593621697216&ref_url=https%253A%252F%252Fru.mouser.com%252F
+$ENDCMP
+#
 $CMP TLV75801PDRV
 D 500mA High Accuracy Voltage Regulator, Adjustable Out, WSON6
 K LDO Regulator Adjustable Positive
@@ -167,6 +173,24 @@ F https://www.st.com/resource/en/datasheet/ts4871.pdf
 $ENDCMP
 #
 $CMP UCC27210D
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27210DDA
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8 PowerPAD
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27211D
+D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
+K mosfet high-side low-side driver
+F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
+$ENDCMP
+#
+$CMP UCC27211DDA
 D 120-V Boot, 4-A Peak, High-Frequency High-Side and Low-Side Driver, SOIC-8
 K mosfet high-side low-side driver
 F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
