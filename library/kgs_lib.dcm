@@ -142,6 +142,12 @@ K LDO Regulator Adjustable Positive
 F http://www.ti.com/lit/ds/symlink/tlv759p.pdf
 $ENDCMP
 #
+$CMP TPA6211A1DGN
+D 3.1-W Mono Fully Differential Audio Power Amplifier
+K Differential Audio Amplifier
+F https://www.ti.com/lit/ds/symlink/tpa6211a1.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594382373417&ref_url=https%253A%252F%252Fru.mouser.com%252F
+$ENDCMP
+#
 $CMP TPS2065D
 D Single Channel, Current-Limited USB Power Distribution Switch
 K 1-chanel current-limited power-distribution USB
