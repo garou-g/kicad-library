@@ -15,7 +15,13 @@ $ENDCMP
 $CMP BQ24295RGE
 D Controlled Single Cell 3A, VQFN-24
 K Battery Charger and Power Path Management
-F http://www.ti.com/lit/ds/symlink/bq25895.pdf
+F https://www.ti.com/lit/ds/symlink/bq24295.pdf
+$ENDCMP
+#
+$CMP BQ27542-G1
+D Battery Side Li Ion Fuel Gauge, VSON-12
+K Fuel Gauge
+F https://www.ti.com/lit/ds/symlink/bq27542-g1.pdf
 $ENDCMP
 #
 $CMP Bus_PCI_Express_x1
@@ -33,6 +39,12 @@ $CMP CC2642R1FRGZ
 D SimpleLink Bluetooth 5 low energy Wireless MCU
 K SimpleLink bluetooth 5 wireless mcu
 F http://www.ti.com/lit/ds/symlink/cc2642r.pdf
+$ENDCMP
+#
+$CMP CSD75207W15
+D Dual P-Channel NexFET Power MOSFET
+K transistor PMOS P-MOS P-MOSFET
+F ~
 $ENDCMP
 #
 $CMP DAC5311IDCK
@@ -64,6 +76,12 @@ K 24-Bit ADC Weigh Scales
 F https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
 $ENDCMP
 #
+$CMP IIS2DLPCTR
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-12
+K 3-axis accelerometer i2c spi mems
+F https://www.st.com/resource/en/datasheet/iis2dlpc.pdf
+$ENDCMP
+#
 $CMP IRLR2908PbF
 D 30A Id, 80V Vds, 28mOhm Rds, N-Channel MOSFET
 K N-Channel NMOS Power MOSFET
@@ -92,6 +110,30 @@ $CMP MFRC522
 D MIFARE RF Reader Device, 32HVQFN
 K MIFARE RFID
 F https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+$ENDCMP
+#
+$CMP MS5637-02BA03
+D Barometric pressure sensor, 13cm resolution, 300 to 1200 mbar, I2C, QFN
+K pressure I2C
+F https://www.te.com/usa-en/product-CAT-BLPS0037.datasheet.pdf
+$ENDCMP
+#
+$CMP OPT3001
+D Ambient Light Sensor, I2C interface, 1.6-3.6V, 6-UDFN
+K opto ambient light sensor
+F https://www.ti.com/lit/ds/symlink/opt3001.pdf
+$ENDCMP
+#
+$CMP SIM7600G
+D GSM LTE Quad-Band Communication Module, GPRS, AT Command Set
+K GSM LTE
+F Unavailable
+$ENDCMP
+#
+$CMP SN74AVC1T45DBV
+D 1-Bit Unidirectional Voltage-Level Translator
+K Noninverting
+F https://www.ti.com/lit/ds/symlink/sn74avc1t45.pdf
 $ENDCMP
 #
 $CMP SN74LVC4245APW
@@ -152,6 +194,12 @@ $CMP TPS2065D
 D Single Channel, Current-Limited USB Power Distribution Switch
 K 1-chanel current-limited power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2065d.pdf
+$ENDCMP
+#
+$CMP TPS22975DSG
+D 5.7-V, 6-A, 16-mΩ On-Resistance Load Switch, WSON-8
+K load switch
+F https://www.ti.com/lit/ds/symlink/tps22975.pdf
 $ENDCMP
 #
 $CMP TPS73201DBV
