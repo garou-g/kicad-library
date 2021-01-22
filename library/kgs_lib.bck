@@ -250,4 +250,10 @@ K mosfet high-side low-side driver
 F http://www.ti.com/lit/ds/symlink/ucc27211.pdf
 $ENDCMP
 #
+$CMP microSIM_A02608
+D SIM Card
+K SIM card UICC
+F  ~
+$ENDCMP
+#
 #End Doc Library
