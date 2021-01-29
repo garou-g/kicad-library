@@ -6,6 +6,12 @@ K display LCD 128x64
 F https://ru.mouser.com/datasheet/2/116/64128K-RGB_series-1511043.pdf
 $ENDCMP
 #
+$CMP BGA123L4
+D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +18.2dB @ 1550 - 1615 MHz, TSLP-4-11
+K RF GAIN BLOCK
+F https://www.infineon.com/dgdl/Infineon-BGA123L4-DS-v01_00-EN.pdf?fileId=5546d4625fe36784015ffd006b653a7c
+$ENDCMP
+#
 $CMP BQ24090DGQ
 D Single Cell 1A, HVSSOP-10
 K Battery Charger and Power Path Management

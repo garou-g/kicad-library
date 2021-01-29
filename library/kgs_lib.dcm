@@ -130,6 +130,12 @@ K opto ambient light sensor
 F https://www.ti.com/lit/ds/symlink/opt3001.pdf
 $ENDCMP
 #
+$CMP SHT40-AD1B
+D Humidity and Temperature Sensor, +/-1.5%RH, +/-0.1degC, I2C, DFN-4
+K Sensirion environment environmental measurement digital
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT4x_Datasheet.pdf
+$ENDCMP
+#
 $CMP SIM7600G
 D GSM LTE Quad-Band Communication Module, GPRS, AT Command Set
 K GSM LTE
