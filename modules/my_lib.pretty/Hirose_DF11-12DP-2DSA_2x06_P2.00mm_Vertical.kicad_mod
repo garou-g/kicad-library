@@ -54,7 +54,7 @@
   (pad 8 thru_hole oval (at 6 2) (size 1.2 1.65) (drill 0.85) (layers *.Cu *.Mask))
   (pad 10 thru_hole oval (at 8 2) (size 1.2 1.65) (drill 0.85) (layers *.Cu *.Mask))
   (pad 12 thru_hole oval (at 10 2) (size 1.2 1.65) (drill 0.85) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/DF11-12DP-2DSA.stp
+  (model ${KICAD_USER_SYS3DMOD}/my_lib.3dshapes/DF11-12DP-2DSA.stp
     (offset (xyz 1.8 -26.2 6.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

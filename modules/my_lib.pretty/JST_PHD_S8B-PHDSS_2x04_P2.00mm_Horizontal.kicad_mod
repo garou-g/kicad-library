@@ -43,7 +43,7 @@
   (pad 4 thru_hole circle (at 2 2) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 4 2) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 6 2) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/S8B-PHDSS.STEP
+  (model ${KICAD_USER_SYS3DMOD}/my_lib.3dshapes/S8B-PHDSS.STEP
     (offset (xyz 3 -4.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

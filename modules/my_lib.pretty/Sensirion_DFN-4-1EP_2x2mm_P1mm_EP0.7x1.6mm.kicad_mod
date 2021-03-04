@@ -32,7 +32,7 @@
   (pad 2 smd roundrect (at -0.925 0.55) (size 0.55 0.35) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at -1.025 -0.45) (size 0.55 0.35) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 1.025 0.55 180) (size 0.55 0.35) (layers F.Paste) (roundrect_rratio 0.25))
-  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/SHTC3.STEP
+  (model ${KICAD_USER_SYS3DMOD}/my_lib.3dshapes/SHTC3.STEP
     (offset (xyz -122.25 -17.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

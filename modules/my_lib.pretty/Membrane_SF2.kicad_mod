@@ -22,7 +22,7 @@
   (pad "" np_thru_hole circle (at 2.55 -2.55) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -2.55 2.55) (size 1 1) (drill 1) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -2.55 -2.55) (size 1 1) (drill 1) (layers *.Cu *.Mask))
-  (model ${KICAD_USER_SYS3DMOD}/kgs_lib.3dshapes/Membrane_SF2.STEP
+  (model ${KICAD_USER_SYS3DMOD}/my_lib.3dshapes/Membrane_SF2.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
