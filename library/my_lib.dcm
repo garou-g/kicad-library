@@ -100,6 +100,12 @@ K opto ambient light sensor
 F https://www.renesas.com/us/en/www/doc/datasheet/isl29033.pdf
 $ENDCMP
 #
+$CMP LD39100PUR
+D Automotive grade 1 A, low quiescent current, low-noise voltage regulator, DFN-6
+K LDO 1A
+F https://www.st.com/resource/en/datasheet/ld39100.pdf
+$ENDCMP
+#
 $CMP LM5005MH
 D Simple Switcher Buck Regulator, Vin=4.3-60V, Iout=3A, Adjustable output voltage, HSOIC-8 package
 K simple-switcher buck step-down voltage-regulator
@@ -236,6 +242,12 @@ $CMP TS4871IDT
 D 1W Audio Amplifier with Standby Mode, SO-8
 K audio amplifier
 F https://www.st.com/resource/en/datasheet/ts4871.pdf
+$ENDCMP
+#
+$CMP TTP223-BA6
+D Single-key Touch Sensor, SOT-23-6
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf
 $ENDCMP
 #
 $CMP UCC27210D
